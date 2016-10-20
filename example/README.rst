@@ -46,7 +46,7 @@ Converted Python dictionary:
 Metadata (TBD)
 -------------------------------------------------------------------------------
 
-::
+.. code-block:: json
 
         sample_meta = { 'awesome-cancer-variant-databases': 'A community-maintained repository of cancer clinical knowledge bases and databases focused on cancer and normal variants. [Contributions welcome](https://github.com/seandavi/awesome-cancer-variant-databases/blob/master/CONTRIBUTE.md]).',
                          'CanDL': 'an expert-curated database of potentially actionable driver mutations for molecular pathologists and laboratory directors to facilitate literature-based annotation of genomic testing of tumors. [web app, Download]'
@@ -55,7 +55,7 @@ Metadata (TBD)
 Author Information (TBD)
 -------------------------------------------------------------------------------
 
-::
+.. code-block:: json
 
         sample_info = { 'author': 'Sean Davis',
         'gituser': 'seandavi',
