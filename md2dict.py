@@ -1,3 +1,4 @@
+import sys
 import re    
 from pprint import pprint 
 
@@ -80,9 +81,9 @@ def find_type(text):
             return "SubL" + str(islist)
     return "Else"
 
-
 def main():
-    with open("README.md", "r") as f:
+
+    with open(sys.argv[1], "r") as f:
         lines = f.read()
         new = txt2dict(lines)
         pprint (new)
@@ -97,4 +98,3 @@ def parsing(inputtext):
             result.group(3)}
 
 main()
-
